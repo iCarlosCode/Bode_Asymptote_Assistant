@@ -16,7 +16,7 @@ def home():
         blob = get_bode_plot_blob(numerador, denominador)#"3*s**2 + 2s", "2*s^3 - 3*s**2 + s - 4")
     
     return f"""
-<form action="http://localhost:5000/" method="GET">
+<form action="https://bode-asymptote-assistant.onrender.com/" method="GET">
         <label for="numerador">Numerador:</label><br>
         <input type="text" id="numerador" name="numerador" value="{numerador}"required><br><br>
         
