@@ -8,7 +8,10 @@ body {
     background-color: #f0f0f0;
     margin: 0;
 }
-
+img {
+    height: 100%;
+    width: 100%;
+}
 .menu {
     max-width: 1500px;
     padding: 20px;
@@ -76,9 +79,4 @@ hr {
 
 .submit-button input:hover {
     background-color: #6c7a89;
-}
-
-img {
-    max-width: 800px;
-    max-height: 300px;
 }
