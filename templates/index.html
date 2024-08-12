@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gráfico de Bode</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+
+<body>
+    <h1>Gerador de gráfico de Bode</h1>
+    <div class="menu">
+        <div class="fraction">
+            <div><b>H</b>(w) = </div>
+            <form  class="form-box" action="http://localhost:5000/" method="GET">
+                <div class="fraction-box">
+                    <div class="fraction-box-content">
+                        <input type="text" id="numerador" name="numerador" value="{{numerador}}" required placeholder="Numerador">
+                    <hr>
+                    <input type="text" id="denominador" name="denominador" value="{{denominador}}" required
+                        placeholder="Denominador">
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value="Enviar" onsubmit=>
+                </div>
+            </form>
+        </div>
+    </div>
+    <img src="data:image/png;base64, {{blob}}" alt="">
+    <audio src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/86/Goat_scream3.ogg" autoplay></audio>
+
+</body>
+
+</html>

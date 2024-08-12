@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.menu {
+    max-width: 1500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fraction {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box {
+    display: flex;
+    gap: 10px;
+
+}
+.submit-button {
+   
+    display: flex;
+    align-items: center;
+}
+.fraction-box {
+    display: flex;
+    align-items: center;
+    
+}
+.fraction-box-content{
+
+}
+
+input {
+    background: #dadfe1;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline-color: #6c7a89; /* Cor da borda quando o input está selecionado */
+     /* Remove o contorno padrão do navegador */
+  }
+
+hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 2px solid #000;
+    width: 100%;
+}
+
+
+
+.submit-button input {
+    padding: 10px 20px;
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button input:hover {
+    background-color: #6c7a89;
+}
+
+img {
+    max-width: 800px;
+    max-height: 300px;
+}

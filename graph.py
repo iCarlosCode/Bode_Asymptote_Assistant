@@ -136,7 +136,7 @@ def setup_plot(numerator = [1, 1] , denominator= [1, 12, 100] ):
     plt.figure(figsize=(10, 6))
 
     # Plotar a resposta de magnitude (em dB)
-    plt.subplot(2, 2, 1)
+    plt.subplot(1, 2, 1)
     plt.semilogx(frequencies, mag, label='Magnitude')
     plt.semilogx(frequencies2, mag2, 'r--', label='Assíntota da Magnitude')
     #plt.plot(frequencies, asymptotic_mag, 'r--', label='Assíntota da Magnitude')
@@ -158,7 +158,7 @@ def setup_plot(numerator = [1, 1] , denominator= [1, 12, 100] ):
     plt.legend()
 
     # Plotar a resposta de fase (em graus)
-    plt.subplot(2, 2, 2)
+    plt.subplot(1, 2, 2)
     plt.semilogx(frequencies, phase, label='Fase')
     plt.semilogx(frequencies2, phase2, 'r--', label='Assíntota da Fase')
     #plt.plot(frequencies, asymptotic_phase, 'r--', label='Assíntota da Fase')
