@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from graph import get_bode_plot_blob
+from graph2 import get_bode_plot_blob
 
 app = Flask(__name__)
 
